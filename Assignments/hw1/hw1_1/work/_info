@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+vclkrst
+Z0 !s110 1663891675
+!i10b 1
+!s100 d1=HFa9@5T7JH2L8mb3gE1
+IoS;8HcNbDU1@Pdc:ILAQ52
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dH:/ECE 552/Assignments/hw1/hw1_1
+w1485370122
+8H:/ECE 552/Assignments/hw1/hw1_1/clkrst.v
+FH:/ECE 552/Assignments/hw1/hw1_1/clkrst.v
+L0 12
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1663891674.000000
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/clkrst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/clkrst.v|
+!i113 1
+Z5 o-work work
+vdemux1_2
+R0
+!i10b 1
+!s100 IbjD974c?oWXa?fk4ZbEP1
+IV=;NF0Qb[QkF2ARdWYbOM1
+R1
+R2
+w1663891475
+8H:/ECE 552/Assignments/hw1/hw1_1/demux1_2.v
+FH:/ECE 552/Assignments/hw1/hw1_1/demux1_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1663891675.000000
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/demux1_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/demux1_2.v|
+!i113 1
+R5
+vdemux1_2_tb
+R0
+!i10b 1
+!s100 <YcKzJXo2oW?`KY1?4[CK1
+IzFgka5dIhJXGKm59[?^Z93
+R1
+R2
+w1663726262
+8H:/ECE 552/Assignments/hw1/hw1_1/demux1_2_tb.v
+FH:/ECE 552/Assignments/hw1/hw1_1/demux1_2_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/demux1_2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/demux1_2_tb.v|
+!i113 1
+R5
+vdemux1_4
+R0
+!i10b 1
+!s100 E7ETD_dKYNE0N6<UDRzG73
+IZ?1LS;0FT2M?PB0G^QL=z2
+R1
+R2
+w1663891571
+8H:/ECE 552/Assignments/hw1/hw1_1/demux1_4.v
+FH:/ECE 552/Assignments/hw1/hw1_1/demux1_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/demux1_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/demux1_4.v|
+!i113 1
+R5
+vdemux1_4_tb
+R0
+!i10b 1
+!s100 BbRRS>VBMYZQ0[^J;1Z[T0
+IQ9T8GQ=74l`9[m2BEnOXQ3
+R1
+R2
+w1663734490
+8H:/ECE 552/Assignments/hw1/hw1_1/demux1_4_tb.v
+FH:/ECE 552/Assignments/hw1/hw1_1/demux1_4_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/demux1_4_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/demux1_4_tb.v|
+!i113 1
+R5
+vnand2
+R0
+!i10b 1
+!s100 ISa?1STS90[eV_=8949@R1
+IP@fD:XTB3@<[@@n1]03B30
+R1
+R2
+Z7 w1485370034
+8H:/ECE 552/Assignments/hw1/hw1_1/nand2.v
+FH:/ECE 552/Assignments/hw1/hw1_1/nand2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/nand2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/nand2.v|
+!i113 1
+R5
+vnor2
+R0
+!i10b 1
+!s100 SNK[jK6955=m0Zbh6gQU`3
+ICekSlUL2mc=[3`LdIQSg93
+R1
+R2
+R7
+8H:/ECE 552/Assignments/hw1/hw1_1/nor2.v
+FH:/ECE 552/Assignments/hw1/hw1_1/nor2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/nor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/nor2.v|
+!i113 1
+R5
+vnot1
+R0
+!i10b 1
+!s100 KWFGS]d0`N730YhRHI;lF1
+ITlCin7AUegjiM@h=BR3EN2
+R1
+R2
+R7
+8H:/ECE 552/Assignments/hw1/hw1_1/not1.v
+FH:/ECE 552/Assignments/hw1/hw1_1/not1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/not1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/not1.v|
+!i113 1
+R5
+vquaddemux1_4
+R0
+!i10b 1
+!s100 Rl0NjYghLWKUO0oD@4Uzf2
+IW_B1ciENFhLg`k8O`HV;O1
+R1
+R2
+w1663891657
+8H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4.v
+FH:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4.v|
+!i113 1
+R5
+vquaddemux1_4_bench
+!s110 1663891674
+!i10b 1
+!s100 @O1N8?HX[z01NPoV3<z8V0
+I=d=NNaV9Vd693Bz:5=Xbn2
+R1
+R2
+w1631549658
+8H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4_bench.v
+FH:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4_bench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw1/hw1_1/quaddemux1_4_bench.v|
+!i113 1
+R5

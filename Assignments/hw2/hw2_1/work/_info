@@ -1,0 +1,251 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+vcla_16b
+Z0 !s110 1665530900
+!i10b 1
+!s100 C0RQ^=g[?SQPJ87^VJDmX0
+IGnZ5S^=Yg<a0`Ve8UGCnj2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dH:/ECE 552/Assignments/hw2/hw2_1
+w1665529125
+8H:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v
+FH:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v
+L0 7
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1665530900.000000
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v|
+!i113 1
+Z5 o-work work
+vcla_16b_bench
+R0
+!i10b 1
+!s100 cLKo6SlJn_cQzXAd_i<SY3
+Ien=>ceElMDafcD34T>anV2
+R1
+R2
+w1664611712
+8H:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v
+FH:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v|
+!i113 1
+R5
+vcla_4b
+R0
+!i10b 1
+!s100 j1aaj^N00T<O7ZU3UNePa1
+I_MzDkV4;kPA?n7UTh?b_Q2
+R1
+R2
+w1665530895
+8H:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v
+FH:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v|
+!i113 1
+R5
+vclkrst
+R0
+!i10b 1
+!s100 :G>ohM_0fkinljT]efjn12
+Ijd=3EK1ml9P^YaAl=Nm[z3
+R1
+R2
+w1663032176
+8H:/ECE 552/Assignments/hw2/hw2_1/clkrst.v
+FH:/ECE 552/Assignments/hw2/hw2_1/clkrst.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/clkrst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/clkrst.v|
+!i113 1
+R5
+vfullAdder_1b
+R0
+!i10b 1
+!s100 [U6kI<>0iJP`J=WmEmldO3
+IhWAXVNY^B5LFMgCOllMni0
+R1
+R2
+w1665526018
+8H:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v
+FH:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v|
+!i113 1
+R5
+nfull@adder_1b
+vnand2
+R0
+!i10b 1
+!s100 DiI;8]Yb`aTTXMW]K60@g2
+I@;Th]WI]Sen=ok6bKTUQT0
+R1
+R2
+w1664499104
+8H:/ECE 552/Assignments/hw2/hw2_1/nand2.v
+FH:/ECE 552/Assignments/hw2/hw2_1/nand2.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/nand2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/nand2.v|
+!i113 1
+R5
+vnand3
+R0
+!i10b 1
+!s100 W7RW4oRA[CAOk75c3Eb]I0
+IH>C]dAoZAjifi0>cG1fJ@1
+R1
+R2
+w1664499110
+8H:/ECE 552/Assignments/hw2/hw2_1/nand3.v
+FH:/ECE 552/Assignments/hw2/hw2_1/nand3.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/nand3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/nand3.v|
+!i113 1
+R5
+vnor2
+R0
+!i10b 1
+!s100 >I]c<G]bR`@7Xz=Lj>mm`3
+IVQ8UKSHkSRjfaQa?fNGkB0
+R1
+R2
+w1664499117
+8H:/ECE 552/Assignments/hw2/hw2_1/nor2.v
+FH:/ECE 552/Assignments/hw2/hw2_1/nor2.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/nor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/nor2.v|
+!i113 1
+R5
+vnor3
+R0
+!i10b 1
+!s100 R:K7`0jT_gJMbjT_2[hT92
+If]9dFO]A:o94mQQ@Dk2A<1
+R1
+R2
+w1664498277
+8H:/ECE 552/Assignments/hw2/hw2_1/nor3.v
+FH:/ECE 552/Assignments/hw2/hw2_1/nor3.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/nor3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/nor3.v|
+!i113 1
+R5
+vnot1
+R0
+!i10b 1
+!s100 gHXeCD;o2[FSNQ0oOVNe00
+I04g`z=URe8G_jcD@2K_k=2
+R1
+R2
+w1664499131
+8H:/ECE 552/Assignments/hw2/hw2_1/not1.v
+FH:/ECE 552/Assignments/hw2/hw2_1/not1.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/not1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/not1.v|
+!i113 1
+R5
+vxor2
+R0
+!i10b 1
+!s100 e65hXgAJCgGoI^i^Jo8U_0
+IOAHzlil=YTg;WAH>e6<?l1
+R1
+R2
+w1664499135
+8H:/ECE 552/Assignments/hw2/hw2_1/xor2.v
+FH:/ECE 552/Assignments/hw2/hw2_1/xor2.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/xor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/xor2.v|
+!i113 1
+R5
+vxor3
+R0
+!i10b 1
+!s100 4aD4m<L1[]O[1f:zdT`c02
+I7C^@PlSd`Z;?ZSXMD<KE02
+R1
+R2
+w1664499142
+8H:/ECE 552/Assignments/hw2/hw2_1/xor3.v
+FH:/ECE 552/Assignments/hw2/hw2_1/xor3.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/ECE 552/Assignments/hw2/hw2_1/xor3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/ECE 552/Assignments/hw2/hw2_1/xor3.v|
+!i113 1
+R5

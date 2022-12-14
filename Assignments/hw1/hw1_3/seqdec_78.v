@@ -1,0 +1,65 @@
+
+module seqdec_78(Inp, Clk, Reset, Out);
+input Inp, Clk, Reset;
+output Out;
+
+localparam S0=4'b0000,S1=4'b0001,S2=4'b0010,S3=4'b0011,S4=4'b0100,S5=4'b0101,S6=4'b0110,S7=4'b0111,S8=4'b1000;
+wire [3:0] pst_state,nxt_state;
+reg [3:0] next;
+assign nxt_state=next;
+//instatiating dff
+dff g1(.d(nxt_state[0]),.clk(Clk),.rst(Reset),.q(pst_state[0]));
+dff g2(.d(nxt_state[1]),.clk(Clk),.rst(Reset),.q(pst_state[1]));
+dff g3(.d(nxt_state[2]),.clk(Clk),.rst(Reset),.q(pst_state[2]));
+dff g4(.d(nxt_state[3]),.clk(Clk),.rst(Reset),.q(pst_state[3]));
+
+assign Out= (pst_state==S8)?1:0;
+
+always @(pst_state or Inp)
+begin 
+next=S0;
+case(pst_state)
+
+S0:begin
+assign next=(Inp)?S1:S0;
+end
+
+S1:begin
+assign next=(Inp)?S2:S1;
+end
+
+S2:begin
+assign next=(Inp)?S3:S1;
+end
+
+S3:begin
+assign next=(Inp)?S4:S1;
+end
+
+S4:begin
+assign next=(Inp)?S5:S1;
+end
+
+S5:begin
+assign next=(Inp)?S0:S6;
+end
+
+S6:begin
+assign next=(Inp)?S2:S7;
+end
+
+S7:begin
+assign next=(Inp)?S2:S8;
+end
+
+S8:begin
+assign next=(Inp)?S2:S1;
+end
+
+endcase
+end
+
+endmodule
+
+
+

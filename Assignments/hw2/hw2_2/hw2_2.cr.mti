@@ -1,0 +1,64 @@
+{H:/ECE 552/Assignments/hw2/hw2_2/shifter_hier_bench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shifter_hier_bench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/clkrst.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/clkrst.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/shifter_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shifter_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/shift_right_arithmatic.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shift_right_arithmatic.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shift_right_arithmatic
+
+Top level modules:
+	shift_right_arithmatic
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/shift_left.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shift_left.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shift_left
+
+Top level modules:
+	shift_left
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/mux2_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/mux2_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/shifter.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/shift_right_logical.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/shift_right_logical.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shift_right_logical
+
+Top level modules:
+	shift_right_logical
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_2/rotate_left.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_2/rotate_left.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module rotate_left
+
+Top level modules:
+	rotate_left
+
+} {} {}}

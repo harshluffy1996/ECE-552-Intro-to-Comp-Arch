@@ -1,0 +1,152 @@
+/*
+   CS/ECE 552, Fall '22
+   Homework #3, Problem #1
+  
+   This module creates a 16-bit register.  It has 1 write port, 2 read
+   ports, 3 register select inputs, a write enable, a reset, and a clock
+   input.  All register state changes occur on the rising edge of the
+   clock. 
+*/
+module regFile (
+                // Outputs
+                read1Data, read2Data, err,
+                // Inputs
+                clk, rst, read1RegSel, read2RegSel, writeRegSel, writeData, writeEn
+                );
+localparam REG_WIDTH = 16;
+   input        clk, rst;
+   input [2:0]  read1RegSel;
+   input [2:0]  read2RegSel;
+   input [2:0]  writeRegSel;
+   input [REG_WIDTH -1:0] writeData;
+   input        writeEn;
+
+   output reg [REG_WIDTH -1:0] read1Data;
+   output reg [REG_WIDTH -1:0] read2Data;
+   output      err;
+
+   /* YOUR CODE HERE */
+localparam REGISTER_0=3'b000,
+	   REGISTER_1=3'b001,
+	   REGISTER_2=3'b010,
+	   REGISTER_3=3'b011,
+	   REGISTER_4=3'b100,
+	   REGISTER_5=3'b101,
+	   REGISTER_6=3'b110,
+	   REGISTER_7=3'b111,
+           REGISTER_8=3'bzzz;
+
+   
+   reg [REG_WIDTH -1:0] reg_0={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_1={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_2={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_3={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_4={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_5={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_6={REG_WIDTH{1'b0}};
+   reg [REG_WIDTH -1:0] reg_7={REG_WIDTH{1'b0}};
+
+
+   wire [REG_WIDTH -1:0] reg_out_0;
+   wire [REG_WIDTH -1:0] reg_out_1;
+   wire [REG_WIDTH -1:0] reg_out_2;
+   wire [REG_WIDTH -1:0] reg_out_3;
+   wire [REG_WIDTH -1:0] reg_out_4;
+   wire [REG_WIDTH -1:0] reg_out_5;
+   wire [REG_WIDTH -1:0] reg_out_6;
+   wire [REG_WIDTH -1:0] reg_out_7;
+   
+   assign err = write ? ((writeRegSel == REGISTER_8) ? 1'b1 : 1'b0) : ((read1RegSel == REGISTER_8 || read2RegSel == REGISTER_8) ? 1'b1 : 1'b0) ;
+   always @(*) begin
+	   	           reg_0 <= reg_out_0;
+	   	           reg_1 <= reg_out_1;
+	   	           reg_2 <= reg_out_2;
+	   	           reg_3 <= reg_out_3;
+	   	           reg_4 <= reg_out_4;
+	   	           reg_5 <= reg_out_5;
+	   	           reg_6 <= reg_out_6;
+	   	           reg_7 <= reg_out_7;
+	   case ({writeEn,writeRegSel})
+		   {1'b1,REGISTER_0} :
+		           reg_0 <= writeData;
+		   {1'b1,REGISTER_1} :
+		           reg_1 <= writeData;
+		   {1'b1,REGISTER_2} :
+		           reg_2 <= writeData;
+		   {1'b1,REGISTER_3} :
+		           reg_3 <= writeData;
+		   {1'b1,REGISTER_4} :
+		           reg_4 <= writeData;
+		   {1'b1,REGISTER_5} :
+		           reg_5 <= writeData;
+		   {1'b1,REGISTER_6} :
+		           reg_6 <= writeData;
+		   {1'b1,REGISTER_7} :
+			   reg_7 <= writeData;
+		   default: begin
+	   	           reg_0 <= reg_out_0;
+	   	           reg_1 <= reg_out_1;
+	   	           reg_2 <= reg_out_2;
+	   	           reg_3 <= reg_out_3;
+	   	           reg_4 <= reg_out_4;
+	   	           reg_5 <= reg_out_5;
+	   	           reg_6 <= reg_out_6;
+	   	           reg_7 <= reg_out_7;
+		   end
+	   endcase
+   end
+
+   always @* begin
+	   read1Data <= {REG_WIDTH{1'b0}};
+	   case (read1RegSel) 
+		   REGISTER_0 :
+			   read1Data <= reg_out_0;
+		   REGISTER_1 :
+			   read1Data <= reg_out_1;
+		   REGISTER_2 :
+			   read1Data <= reg_out_2;
+		   REGISTER_3 :
+			   read1Data <= reg_out_3;
+		   REGISTER_4 :
+			   read1Data <= reg_out_4;
+		   REGISTER_5 :
+			   read1Data <= reg_out_5;
+		   REGISTER_6 :
+			   read1Data <= reg_out_6;
+		   REGISTER_7 :
+			   read1Data <= reg_out_7;
+	   endcase
+   end
+
+   always @* begin
+	   read2Data <= {REG_WIDTH{1'b0}};
+	   case (read2RegSel) 
+		   REGISTER_0 :
+			   read2Data <= reg_out_0;
+		   REGISTER_1 :
+			   read2Data <= reg_out_1;
+		   REGISTER_2 :
+			   read2Data <= reg_out_2;
+		   REGISTER_3 :
+			   read2Data <= reg_out_3;
+		   REGISTER_4 :
+			   read2Data <= reg_out_4;
+		   REGISTER_5 :
+			   read2Data <= reg_out_5;
+		   REGISTER_6 :
+			   read2Data <= reg_out_6;
+		   REGISTER_7 :
+			   read2Data <= reg_out_7;
+	   endcase
+   end
+
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg0_inst (.d(reg_0), .clk(clk), .rst(rst), .q(reg_out_0) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg1_inst (.d(reg_1), .clk(clk), .rst(rst), .q(reg_out_1) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg2_inst (.d(reg_2), .clk(clk), .rst(rst), .q(reg_out_2) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg3_inst (.d(reg_3), .clk(clk), .rst(rst), .q(reg_out_3) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg4_inst (.d(reg_4), .clk(clk), .rst(rst), .q(reg_out_4) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg5_inst (.d(reg_5), .clk(clk), .rst(rst), .q(reg_out_5) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg6_inst (.d(reg_6), .clk(clk), .rst(rst), .q(reg_out_6) );  
+  dff_cascade   #(.REG_WIDTH(REG_WIDTH)) reg7_inst (.d(reg_7), .clk(clk), .rst(rst), .q(reg_out_7) );  
+   
+endmodule

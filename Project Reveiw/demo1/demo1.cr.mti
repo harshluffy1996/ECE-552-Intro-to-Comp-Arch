@@ -1,0 +1,240 @@
+{H:/ECE 552/Project Reveiw/demo1/regFile.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/regFile.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/reg_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/reg_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_16b
+
+Top level modules:
+	reg_16b
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/control_unit.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/control_unit.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/quadmux4_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/quadmux4_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module quadmux4_1
+
+Top level modules:
+	quadmux4_1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/memory.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/memory.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/left_shift_logical.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/left_shift_logical.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module left_shift_logical
+
+Top level modules:
+	left_shift_logical
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/fetch.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/fetch.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/proc_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/proc_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/nand2.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/nand2.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/clkrst.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/clkrst.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/dff_cascade.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/dff_cascade.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module dff_cascade
+
+Top level modules:
+	dff_cascade
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/execute.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/execute.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/proc.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/proc.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc
+
+Top level modules:
+	proc
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/mux16b_2_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/mux16b_2_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux16b_2_1
+
+Top level modules:
+	mux16b_2_1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/mux2_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/mux2_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/decode.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/decode.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/shifter.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/mag.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/mag.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mag
+-- Compiling module cmp1bit
+
+Top level modules:
+	mag
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/dff_cascade_en.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/dff_cascade_en.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module dff_cascade_en
+
+Top level modules:
+	dff_cascade_en
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/mux16b_4_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/mux16b_4_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux16b_4_1
+
+Top level modules:
+	mux16b_4_1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/mux4_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/mux4_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/memory2c.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/memory2c.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/memory2c.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/memory2c.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/cla_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/cla_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_16b
+
+Top level modules:
+	cla_16b
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/dff.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/dff.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/wb.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/wb.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module wb
+
+Top level modules:
+	wb
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/alu_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/alu_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module alu_hier
+
+Top level modules:
+	alu_hier
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/proc_hier_bench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/proc_hier_bench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc_hier_bench
+
+Top level modules:
+	proc_hier_bench
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/not1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/not1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/alu.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/alu.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/pc.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/pc.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/regFile_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/regFile_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module regFile_hier
+
+Top level modules:
+	regFile_hier
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/fullAdder_1b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/fullAdder_1b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module fullAdder_1b
+
+Top level modules:
+	fullAdder_1b
+
+} {} {}} {H:/ECE 552/Project Reveiw/demo1/cla_4b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project Reveiw/demo1/cla_4b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_4b
+
+Top level modules:
+	cla_4b
+
+} {} {}}

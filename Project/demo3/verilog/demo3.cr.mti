@@ -1,0 +1,386 @@
+{H:/ECE 552/Project/demo3/verilog/hazard_detection_unit.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/hazard_detection_unit.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module hazard_detection_unit
+
+Top level modules:
+	hazard_detection_unit
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/MEMWB.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/MEMWB.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MEMWB
+
+Top level modules:
+	MEMWB
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/reg_3b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/reg_3b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_3b
+
+Top level modules:
+	reg_3b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/proc_hier_pbench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/proc_hier_pbench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc_hier_pbench
+
+Top level modules:
+	proc_hier_pbench
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/final_memory.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/final_memory.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module final_memory
+
+Top level modules:
+	final_memory
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/proc_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/proc_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/cache.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/cache.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memv.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memv.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mem_system_ref.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mem_system_ref.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mem_system_ref
+
+Top level modules:
+	mem_system_ref
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/cla_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/cla_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_16b
+
+Top level modules:
+	cla_16b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mem_system_hier.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mem_system_hier.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mem_system_hier
+
+Top level modules:
+	mem_system_hier
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/IDEX.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/IDEX.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module IDEX
+
+Top level modules:
+	IDEX
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/clkrst.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/clkrst.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/decode.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/decode.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/proc.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/proc.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module proc
+
+Top level modules:
+	proc
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/reg_1b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/reg_1b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_1b
+
+Top level modules:
+	reg_1b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/wb.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/wb.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module wb
+
+Top level modules:
+	wb
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/stallmem.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/stallmem.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module stallmem
+
+Top level modules:
+	stallmem
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mem_system_perfbench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mem_system_perfbench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mem_system_perfbench
+
+Top level modules:
+	mem_system_perfbench
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memory2c_align.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memory2c_align.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c_align
+
+Top level modules:
+	memory2c_align
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memory.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memory.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/IFID.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/IFID.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module IFID
+
+Top level modules:
+	IFID
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux2_1_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux2_1_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux2_1_16b
+
+Top level modules:
+	mux2_1_16b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/regFile.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/regFile.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memory2c.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memory2c.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux4_1_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux4_1_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux4_1_16b
+
+Top level modules:
+	mux4_1_16b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mem_system_randbench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mem_system_randbench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mem_system_randbench
+
+Top level modules:
+	mem_system_randbench
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/fetch.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/fetch.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memc.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memc.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/execute.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/execute.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/jump.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/jump.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module jump
+
+Top level modules:
+	jump
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/shifter.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/cla_4b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/cla_4b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_4b
+
+Top level modules:
+	cla_4b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/four_bank_mem.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/four_bank_mem.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module four_bank_mem
+
+Top level modules:
+	four_bank_mem
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/stallmem.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/stallmem.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module stallmem
+
+Top level modules:
+	stallmem
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memory2c_align.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memory2c_align.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c_align
+
+Top level modules:
+	memory2c_align
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/control.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/control.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/reg_2b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/reg_2b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_2b
+
+Top level modules:
+	reg_2b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/alu.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/alu.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux2_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux2_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/reg_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/reg_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_16b
+
+Top level modules:
+	reg_16b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memory2c.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memory2c.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux4_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux4_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/final_memory.syn.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/final_memory.syn.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module final_memory
+
+Top level modules:
+	final_memory
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memc.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memc.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux4_1_3b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux4_1_3b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux4_1_3b
+
+Top level modules:
+	mux4_1_3b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mux8_1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mux8_1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mux8_1
+
+Top level modules:
+	mux8_1
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/reg_5b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/reg_5b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reg_5b
+
+Top level modules:
+	reg_5b
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/memv.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/memv.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/decode3_8.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/decode3_8.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module decode3_8
+
+Top level modules:
+	decode3_8
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/dff.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/dff.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/cache_fsm.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/cache_fsm.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cache_fsm
+
+Top level modules:
+	cache_fsm
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/mem_system.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/mem_system.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module mem_system
+
+Top level modules:
+	mem_system
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/EXMEM.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/EXMEM.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module EXMEM
+
+Top level modules:
+	EXMEM
+
+} {} {}} {H:/ECE 552/Project/demo3/verilog/branch.v} {1 {vlog -work work -stats=none {H:/ECE 552/Project/demo3/verilog/branch.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module branch
+
+Top level modules:
+	branch
+
+} {} {}}

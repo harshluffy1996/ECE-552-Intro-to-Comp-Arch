@@ -1,0 +1,85 @@
+{H:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/cla_16b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_16b
+
+Top level modules:
+	cla_16b
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/nor2.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/nor2.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/nor3.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/nor3.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module nor3
+
+Top level modules:
+	nor3
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/not1.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/not1.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/cla_4b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_4b
+
+Top level modules:
+	cla_4b
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/fullAdder_1b.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module fullAdder_1b
+
+Top level modules:
+	fullAdder_1b
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/cla_16b_bench.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_16b_bench
+
+Top level modules:
+	cla_16b_bench
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/clkrst.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/clkrst.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/nand2.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/nand2.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/xor2.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/xor2.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/nand3.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/nand3.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module nand3
+
+Top level modules:
+	nand3
+
+} {} {}} {H:/ECE 552/Assignments/hw2/hw2_1/xor3.v} {1 {vlog -work work -stats=none {H:/ECE 552/Assignments/hw2/hw2_1/xor3.v}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module xor3
+
+Top level modules:
+	xor3
+
+} {} {}}
